@@ -61,7 +61,7 @@ You should have received a copy of the GNU Lesser General Public License along w
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
-            <version>3.0.1</version>
+            <version>3.1.0</version>
             <!-- This dependency is already provided by the servlet container. Nevertheless we depend on it, since it's required for compilation. -->
             <scope>provided</scope>
         </dependency>
