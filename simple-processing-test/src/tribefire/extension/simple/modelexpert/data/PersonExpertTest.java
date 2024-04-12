@@ -45,6 +45,11 @@ public class PersonExpertTest {
 		assertThat(PersonExpert.getParents(child)).containsExactlyInAnyOrder(mother, father);
 
 		child.setMother(null);
-		assertThat(PersonExpert.getParents(child)).containsExactlyInAnyOrder(father);
+		assertThat(PersonExpert.getParents(child)).containsExactlyInAnyOrder(mother);
+	}
+
+	@Test
+	public void test2() {
+		assertThat(true).isFalse();
 	}
 }
