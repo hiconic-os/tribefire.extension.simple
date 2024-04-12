@@ -56,7 +56,7 @@ public class SimpleEchoServiceProcessorTest {
 				.getReturnValue();
 
 		// check response
-		assertThat(response.getEcho()).startsWith("(ECHO)");
+		assertThat(response.getEcho()).startsWith("XX(ECHO)");
 		assertThat(response.getEcho()).containsNTimes(request.getMessage(), echoCount);
 	}
 }
